@@ -1,0 +1,225 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
+
+ul li a:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+.cover {
+    background-image: url(donation13-main.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(231, 45, 12), rgb(255, 94, 0));
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.donate-today {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+.boxall {
+    display: flex;
+
+    justify-content: center;
+}
+
+.box1 {
+    background-color: rgba(179, 172, 172, 0.568);
+    padding: 20px 20px;
+    font-weight: 700;
+
+}
+
+.box2 {
+    color: rgb(245, 45, 9);
+    background-color: rgba(233, 187, 187, 0.884);
+    padding: 20px 20px;
+    font-weight: 700;
+    margin-left: 18px;
+    border: 1px solid red;
+
+}
+
+.box3 {
+    background-color: rgba(179, 172, 172, 0.568);
+    padding: 20px 20px;
+    font-weight: 700;
+    margin-left: 18px;
+
+}
+
+.box4 {
+    background-color: rgba(179, 172, 172, 0.568);
+    padding: 20px 20px;
+    font-weight: 700;
+    margin-left: 18px;
+
+}
+
+.box5 {
+    background-color: rgba(179, 172, 172, 0.568);
+    padding: 20px 20px;
+    font-weight: 700;
+    margin-left: 18px;
+
+}
+
+.otheramount {
+    color: rgba(88, 80, 80, 0.822);
+    margin-bottom: 0;
+    padding-bottom: 4px;
+}
+
+hr {
+    width: 700px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.box6 {
+    background-color: rgba(93, 206, 168, 0.452);
+    padding: 20px;
+}
+
+.box7 {
+    background-color: rgba(230, 115, 168, 0.514);
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.box8 {
+    background-color: rgba(171, 224, 86, 0.514);
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.boxall p {
+    text-align: justify;
+}
+
+.threepart {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.flexible {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flexible h1 {
+    text-align: left;
+}
+
+.half-width {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.half-width img {
+    width: 100%;
+    height: auto;
+
+}
+
+.half-width p {
+    text-align: left;
+}
+
+.gmu {
+    margin-top: 5%;
+}
+
+.box9 {
+    background-color: rgba(229, 231, 82, 0.548);
+    padding: 40px 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.inputbox {
+    text-align: center;
+}
+
+.email {
+    height: 25px;
+    width: 400px;
+    font-weight: 600;
+    background-color: rgba(177, 169, 169, 0.836);
+    padding-left: 5px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.botton {
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(rgb(231, 45, 12), rgb(255, 94, 0));
+
+    padding: 5px 8px;
+    margin-left: -5px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.footer {
+    background-color: black;
+    color: White;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
